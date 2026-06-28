@@ -769,7 +769,7 @@ bool OpenSystemSettings(SystemSettingsType type) {
 }
 
 void NewVersionLaunched(int oldVersion) {
-	if (oldVersion <= 5014003 && cAutoStart()) {
+	if (oldVersion <= 4001001 && cAutoStart()) {
 		AutostartToggle(true);
 	}
 }

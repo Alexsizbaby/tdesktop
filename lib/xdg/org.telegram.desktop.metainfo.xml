@@ -106,7 +106,7 @@
     </content_rating>
     <launchable type="desktop-id">org.telegram.desktop.desktop</launchable>
     <provides>
-        <binary>Telegram</binary>
+        <binary>telegram-desktop</binary>
         <dbus type="session">org.telegram.desktop</dbus>
         <mediatype>x-scheme-handler/tg</mediatype>
         <mediatype>x-scheme-handler/tonsite</mediatype>
