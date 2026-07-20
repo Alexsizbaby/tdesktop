@@ -75,7 +75,7 @@ jobs:
           arch: ${{ matrix.arch }}
 
       - name: Clone.
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           submodules: recursive
           path: ${{ env.TBUILD }}\${{ env.REPO_NAME }}
